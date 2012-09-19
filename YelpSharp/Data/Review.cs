@@ -10,6 +10,11 @@ namespace YelpSharp.Data
     /// </summary>
     public class Review
     {
+         /// <summary>
+        /// Review Text
+        /// </summary>
+        /// 
+        public string excerpt { get; set; }
         
         /// <summary>
         /// Review identifier
